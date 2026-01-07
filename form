@@ -1,0 +1,27 @@
+<section id="join" style="border:1px solid #2a2d3a; border-radius:16px; padding:16px; background:#141622;">
+  <h2 style="margin:0 0 8px; font-size:18px;">参加方法</h2>
+  <p style="margin:0 0 12px; color:#a9abb3;">
+    まずは参加フォームへ。記入後、Discord案内をお送りします（または自動返信で案内）。
+  </p>
+
+  <div style="display:flex; gap:10px; flex-wrap:wrap;">
+    <a href="★GoogleフォームURL★"
+       style="display:inline-block; padding:10px 12px; border-radius:12px; border:1px solid #2a2d3a; background:rgba(232,232,234,.08); color:#e8e8ea; text-decoration:none;">
+      参加する（フォーム）
+    </a>
+
+    <a href="★Discord招待URL★"
+       style="display:inline-block; padding:10px 12px; border-radius:12px; border:1px solid #2a2d3a; background:rgba(255,255,255,.02); color:#e8e8ea; text-decoration:none;">
+      Discordに入る
+    </a>
+
+    <a href="mailto:★問い合わせメール★?subject=TNC参加/問い合わせ"
+       style="display:inline-block; padding:10px 12px; border-radius:12px; border:1px solid #2a2d3a; background:rgba(255,255,255,.02); color:#e8e8ea; text-decoration:none;">
+      問い合わせ（メール）
+    </a>
+  </div>
+
+  <p style="margin:12px 0 0; color:#a9abb3; font-size:13px;">
+    ※個人情報は連絡目的にのみ使用。ニックネーム参加OK。
+  </p>
+</section>
