@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>たかさき脳科学クラブ（TNC）｜意識の現在地</title>
+  <meta name="description" content="たかさき脳科学クラブ（TNC）は、意識研究の「現在地」を整理し、測定・予測可能な形へ落とすための輪読とまとめを行うクラブです。" />
+  <style>
+    :root { --bg:#0b0c10; --fg:#e8e8ea; --muted:#a9abb3; --card:#141622; --line:#2a2d3a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+           background: var(--bg); color: var(--fg); line-height: 1.7; }
+    a { color: var(--fg); text-decoration: none; border-bottom: 1px solid rgba(232,232,234,.35); }
+    a:hover { border-bottom-color: rgba(232,232,234,.8); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 48px 18px; }
+    .hero { padding: 28px 18px; border: 1px solid var(--line); background: linear-gradient(180deg, rgba(20,22,34,.85), rgba(20,22,34,.55));
+            border-radius: 18px; }
+    .tag { display:inline-block; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 12px; }
+    h1 { margin: 10px 0 6px; font-size: 34px; letter-spacing: .2px; }
+    .sub { color: var(--muted); margin: 0; }
+    .grid { display:grid; grid-template-columns: repeat(12, 1fr); gap: 12px; margin-top: 14px; }
+    .card { grid-column: span 12; border: 1px solid var(--line); background: var(--card); border-radius: 16px; padding: 16px; }
+    @media (min-width: 820px) {
+      .card.half { grid-column: span 6; }
+      .card.third { grid-column: span 4; }
+    }
+    h2 { margin: 0 0 8px; font-size: 18px; }
+    ul { margin: 8px 0 0 18px; padding: 0; color: var(--fg); }
+    li { margin: 6px 0; }
+    .muted { color: var(--muted); }
+    .btns { display:flex; gap:10px; flex-wrap: wrap; margin-top: 14px; }
+    .btn { display:inline-block; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255,255,255,.02); }
+    .btn.primary { background: rgba(232,232,234,.08); }
+    .log { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; color: var(--muted); }
+    footer { margin-top: 22px; color: var(--muted); font-size: 13px; }
+    .hr { height:1px; background: var(--line); margin: 14px 0; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <span class="tag">TNC / Takasaki Neuroscience Club</span>
+      <h1>たかさき脳科学クラブ（TNC）</h1>
+      <p class="sub">コンセプト：<strong>意識の現在地</strong> — 研究の全体像を整理し、測定・予測可能な形へ落とす</p>
+      <div class="btns">
+        <a class="btn primary" href="#join">参加する</a>
+        <a class="btn" href="#log">現在地ログ</a>
+        <a class="btn" href="#reading">輪読</a>
+      </div>
+    </section>
+
+    <div class="grid">
+      <section class="card half" id="about">
+        <h2>このクラブでやること</h2>
+        <ul>
+          <li>意識研究の主要トピックを俯瞰して「現在地」を更新する</li>
+          <li>輪読中心（情報収集メイン）＋ディスカッション少々</li>
+          <li>毎回、<strong>1枚図解</strong>と<strong>要点メモ</strong>を残す（資産化）</li>
+        </ul>
+        <div class="hr"></div>
+        <p class="muted">※哲学の勝ち負けより、定義・測定・予測の筋を太くする方向。</p>
+      </section>
+
+      <section class="card half" id="format">
+        <h2>運用フォーマット（軽量）</h2>
+        <ul>
+          <li>月2回：輪読（レビュー/理論中心）</li>
+          <li>月1回：現在地アップデート（論点・未解決・次に読む）</li>
+          <li>常設：Discord等で質問・論文共有</li>
+        </ul>
+        <div class="hr"></div>
+        <p class="muted">開催方法・場所は、参加者の集まり方に合わせて調整します。</p>
+      </section>
+
+      <section class="card third" id="reading">
+        <h2>輪読の作法</h2>
+        <ul>
+          <li>15分要約 × 2本</li>
+          <li>問い：1人1つ</li>
+          <li>結論：1行で残す</li>
+        </ul>
+      </section>
+
+      <section class="card third" id="values">
+        <h2>行動規範（最小）</h2>
+        <ul>
+          <li>人を否定しない</li>
+          <li>根拠を示す</li>
+          <li>再現性を意識</li>
+        </ul>
+      </section>
+
+      <!-- 参加導線はここを差し替え（↓にセクション2を貼る） -->
+      <section class="card third" id="join">
+        <h2>参加方法</h2>
+        <p class="muted">下のリンクを差し替えて使ってください。</p>
+        <ul>
+          <li><a href="https://example.com">参加フォーム（Google Form等）</a></li>
+          <li><a href="mailto:tnc@example.com">連絡先メール</a></li>
+          <li><a href="https://example.com">Discord招待</a></li>
+        </ul>
+      </section>
+
+      <section class="card" id="log">
+        <h2>意識の現在地ログ</h2>
+        <p class="muted">ここに更新履歴を積み上げます（短くてOK）。</p>
+        <div class="log">
+          2026-01-01: TNC 立ち上げ / コンセプト「意識の現在地」<br/>
+          2026-__-__: 輪読 #1（TODO）<br/>
+          2026-__-__: 現在地アップデート #1（TODO）<br/>
+        </div>
+      </section>
+
+      <!-- 参考リンクはここに追加（↓にセクション3を貼る） -->
+
+      <section class="card" id="contact">
+        <h2>連絡</h2>
+        <p class="muted">問い合わせ・参加希望は参加方法セクションから。協力者（要約担当/デザイン/運営）も歓迎。</p>
+      </section>
+    </div>
+
+    <footer>
+      © 2026 Takasaki Neuroscience Club (TNC)
+    </footer>
+  </div>
+</body>
+</html>
